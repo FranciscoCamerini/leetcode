@@ -2,7 +2,6 @@ class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         total = []
         x = []
-        final = []
         
         for i in s:
             if i != ' ':
